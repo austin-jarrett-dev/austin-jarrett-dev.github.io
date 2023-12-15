@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin Jarrett Portfolio</title>
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#about" class="nav__brand">Your Name</a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#resume" class="nav__link">Resume</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section about">
+        <h2 class="section__title">About Me</h2>
+        <div class="section__content">
+          <p>
+            Hello! I'm Austin Jarrett, a dedicated Full Stack Developer with
+            four years of professional experience in the software development
+            field. My expertise includes a range of technologies such as Java,
+            Vue, Angular, Adobe Experience Manager (AEM), and Spring Framework,
+            among others. I'm always eager to expand my knowledge and I don't
+            shy away from exploring new technologies or frameworks.
+          </p>
+          <p>
+            What excites me the most is the challenge of devising creative and
+            innovative solutions for complex problems. I enjoy the challenge of
+            solving intricate issues and take great satisfaction in creating
+            functional and comprehensive solutions that not only meet but exceed
+            expectations.
+          </p>
+
+          <p>
+            In the dynamic world of technology, I'm constantly striving to grow
+            and adapt. My goal is to ensure that my skills stay relevant and at
+            the cutting edge. I look forward to applying my blend of expertise,
+            enthusiasm, and continuous learning to any project I work on.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="section__content">
+          <p>
+            As a dedicated software developer, I've honed a diverse set of
+            skills that enable me to handle various aspects of web development.
+            Here are some of the key areas of my expertise:
+          </p>
+
+          <h3 class="skills__heading">Web Development</h3>
+          <p class="skills__description">
+            Proficient in HTML5, CSS3, and JavaScript, with a strong
+            understanding of responsive design principles and cross-browser
+            compatibility. Experienced in building user-friendly interfaces and
+            integrating front-end with various back-end technologies.
+          </p>
+
+          <h3 class="skills__heading">Back-End Development</h3>
+          <p class="skills__description">
+            Skilled in Node.js and Express.js, with experience in building
+            robust APIs and server-side logic. Proficient in database
+            technologies like MongoDB and SQL.
+          </p>
+
+          <h3 class="skills__heading">Version Control</h3>
+          <p class="skills__description">
+            Experienced in using Git for version control, familiar with
+            branching strategies and collaborative workflows.
+          </p>
+
+          <h3 class="skills__heading">Frameworks and Libraries</h3>
+          <p class="skills__description">
+            Proficient in React for building dynamic and responsive user
+            interfaces. Familiar with Vue.js and Angular.
+          </p>
+
+          <h3 class="skills__heading">Other Technologies</h3>
+          <p class="skills__description">
+            Experience with RESTful API development, JSON, and AJAX for creating
+            seamless user experiences.
+          </p>
+
+          <h3 class="skills__heading">Soft Skills</h3>
+          <p class="skills__description">
+            Strong problem-solving abilities, effective communication skills,
+            and a keen attention to detail. Collaborative team player who is
+            also capable of working independently.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="section__content">
+          <!-- Project 1 -->
+          <div class="project">
+            <h3 class="project__title">Project Title</h3>
+            <p class="project__description">
+              Brief description of the project...
+            </p>
+
+            <!-- Image Carousel for Project 1 -->
+            <div class="project__carousel">
+              <img
+                src="path-to-image-1.jpg"
+                alt="Project Image 1"
+                class="carousel__image"
+              />
+              <img
+                src="path-to-image-2.jpg"
+                alt="Project Image 2"
+                class="carousel__image"
+                style="display: none"
+              />
+              <!-- Add more images as needed -->
+              <button class="carousel__button carousel__button--prev">
+                Previous
+              </button>
+              <button class="carousel__button carousel__button--next">
+                Next
+              </button>
+            </div>
+
+            <ul class="project__tech-list">
+              <!-- Technology list items -->
+            </ul>
+            <div class="project__links">
+              <!-- Links to live demo and repo -->
+            </div>
+          </div>
+
+          <!-- Additional projects can be added in a similar structure -->
+        </div>
+      </section>
+
+      <section id="resume" class="section resume">
+        <h2 class="section__title">Resume</h2>
+        <div class="section__content">
+          <p>
+            For a detailed overview of my professional experience, skills, and
+            projects, please download my resume.
+          </p>
+          <a
+            href="path-to-your-resume.pdf"
+            download="YourName_Resume.pdf"
+            class="resume__download-link"
+            >Download Resume</a
+          >
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section__title">Contact</h2>
+        <div class="section__content">
+          <p>
+            If you have any questions, job opportunities, or projects you'd like
+            to discuss, feel free to reach out to me:
+          </p>
+
+          <!-- Contact Details -->
+          <p class="contact__detail">
+            <strong>Email:</strong>
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+          </p>
+          <p class="contact__detail">
+            <strong>LinkedIn:</strong>
+            <a href="your-linkedin-profile-url" target="_blank"
+              >your-linkedin-profile</a
+            >
+          </p>
+          <!-- Add more social links or other contact methods as needed -->
+
+          <!-- Contact Form (optional) -->
+          <!-- Uncomment if you want to include a contact form
+        <form action="path-to-your-form-handling-script" method="post" class="contact__form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="form__submit-button">Send Message</button>
+        </form>
+        -->
+    </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2023 Austin Jarrett. All Rights Reserved.</p>
+      <p class="footer__text">Follow me on [social media links]</p>
+    </footer>
+  </body>
+</html>
